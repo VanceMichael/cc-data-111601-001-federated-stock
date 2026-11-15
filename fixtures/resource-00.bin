@@ -1,0 +1,1 @@
+{"data":{"products":[{"__typename":"Product","key":{"model":"R1","variant":"blue"},"fields":{"name":"训练器"}},{"__typename":"Product","key":{"model":"R1","variant":"red"},"fields":{"name":"训练器"}}]}}

@@ -1,0 +1,36 @@
+{
+  "catalog": {
+    "entry": "/primary",
+    "ownership": "/schema",
+    "services": {
+      "warehouses": "/warehouses",
+      "parts": "/parts"
+    }
+  },
+  "resources": {
+    "/primary": {
+      "file": "primary.bin",
+      "type": "application/json"
+    },
+    "/schema": {
+      "file": "resource-01.bin",
+      "type": "application/json"
+    },
+    "/warehouses": {
+      "file": "resource-02.bin",
+      "type": "application/json",
+      "phases": {
+        "1": {
+          "body": "{\"data\":{\"entities\":[{\"__typename\":\"Product\",\"key\":{\"model\":\"R1\",\"variant\":\"red\"},\"fields\":{\"stock\":{\"north\":0}}}]}}",
+          "file": null
+        }
+      },
+      "protocol": "entity"
+    },
+    "/parts": {
+      "file": "resource-03.bin",
+      "type": "application/json",
+      "protocol": "entity"
+    }
+  }
+}

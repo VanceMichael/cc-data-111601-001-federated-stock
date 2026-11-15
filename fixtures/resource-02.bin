@@ -1,0 +1,1 @@
+{"data":{"entities":[{"__typename":"Product","key":{"model":"R1","variant":"blue"},"fields":{"stock":{"north":4,"south":null}}},{"__typename":"Product","key":{"model":"R1","variant":"red"},"fields":{"stock":null}}]},"errors":[{"path":["entities",1,"fields","stock"],"code":"TEMPORARY"}]}

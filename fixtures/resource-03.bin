@@ -1,0 +1,1 @@
+{"data":{"entities":[{"__typename":"Accessory","key":{"model":"R1","variant":"blue"},"fields":{"stock":7}}]},"errors":[{"path":["entities",0,"fields","price"],"code":"FORBIDDEN"}]}
